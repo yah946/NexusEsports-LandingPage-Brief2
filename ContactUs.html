@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Contact Us</h2>
+    <form>
+        <fieldset>
+            <legend>Send Us a Message</legend>
+            <div>
+                <label for="name">Name:</label>
+                <input autofocus id="name" type="text" name="Name" placeholder="Enter Your Name">
+            </div>
+            <br>
+            <div>
+                <label for="em">Email:</label>
+                <input required id="em" type="email" name="email" placeholder="Enter Your Email">
+            </div>
+            <br>
+            <div>
+                <label for="obj">Object:</label>
+                <input required id="obj" type="text" name="object" placeholder="Enter Your Object">
+            </div>
+            <br>
+            <div>
+                <label for="message">Message:</label>
+                <br>
+                <textarea required id="message" name="content" minlength="20" maxlength="300" cols="80" rows="10"
+                    placeholder="Type Your Message"></textarea>
+            </div>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+
+</html>
