@@ -32,8 +32,49 @@ body{
   align-self: center;
 }
 /* hero */
+.hero{
+  margin: 0 300px;
+  display: flex;
+  width: 700px;
+  height: 300px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hero__buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.hero__button{
+  box-shadow: 3px 3px 10px 5px #00Cfff, -3px -3px 10px 5px #00Cfff;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero__button--color{
+  border: solid 2px #00Cfff;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
 /* CTA */
-
+.cta{
+  margin: 0 300px;
+  border: solid 2px #00Cfff;
+  display: flex;
+  width: 700px;
+  height: 300px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cta__button{
+  box-shadow: 3px 3px 10px 5px #00Cfff, -3px -3px 10px 5px #00Cfff;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 5px;
+}
 /* footer */
 .footer__list--flex{
   display: flex;
