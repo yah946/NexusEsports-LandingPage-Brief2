@@ -60,14 +60,18 @@ body{
 }
 /* CTA */
 .cta{
-  margin: 0 300px;
-  border: solid 2px #00Cfff;
+  width: 650px;
+  height: 200px;
   display: flex;
-  width: 700px;
-  height: 300px;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
+  margin: 0 320px;
+  box-shadow: 3px 3px 10px 5px #00Cfff;
+}
+.cta__text{
+  align-self: center;
+  white-space: pre;
 }
 .cta__button{
   box-shadow: 3px 3px 10px 5px #00Cfff, -3px -3px 10px 5px #00Cfff;
@@ -129,7 +133,7 @@ ul{
   box-shadow: 3px 3px 5px 2px #cc00ff,-3px -3px 5px 2px #00Cfff;
 }
 .games__card--img1{
-    background-image: url(/asset/image/Games1.png);
+    background-image: url(./image/Games1.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -139,19 +143,19 @@ ul{
   text-decoration: none;
 }
 .games__card--img2{
-    background-image: url(/asset/image/Games2.png);
+    background-image: url(./image/Games2.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .games__card--img3{
-    background-image: url(/asset/image/Games3.png);
+    background-image: url(./image/Games3.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 .games__card--img4{
-    background-image: url(/asset/image/Games4.png);
+    background-image: url(./image/Games4.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -225,4 +229,44 @@ ul{
 .event__card--img4{
     background-image: url(./image/Event4.png);
 
+}
+/* login */
+.form-container{
+  background-color: #090979;
+  border-radius: 30px;
+  box-shadow: 3px 3px 10px 5px white,-3px -3px 10px 5px rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 400px;
+  margin: 100px 450px;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.form-container h2{
+  align-self: center;
+  margin-bottom: 20px;
+
+}
+.input__grp{
+  position: relative;
+  margin-bottom: 25px;
+}
+.input__grp input{
+  width: 100%;
+  padding: 5px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #c1c1c1;
+  color: white;
+  font-size: 16px;
+}
+.login__button{
+  color: white;
+  width: 60px;
+  height: 20px;
+  padding: 3px;
+  border: 1px solid white;
+  background-color: #4C00FF;
+  text-decoration: none;
 }
