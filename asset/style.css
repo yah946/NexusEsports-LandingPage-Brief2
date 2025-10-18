@@ -196,7 +196,15 @@ ul{
   display: flex;
   justify-content: space-around;
 }
+/* Teams */
 .teams__button{
+  color: #cc00ff;
+  box-shadow: 3px 3px 10px 5px #cc00ff;
+  padding: 3px 20px;
+  text-decoration: none;
+}
+/* Tournaments */
+.tournaments__button{
   color: #cc00ff;
   box-shadow: 3px 3px 10px 5px #cc00ff;
   padding: 3px 20px;
