@@ -212,26 +212,17 @@ ul{
   box-shadow: 3px 3px 5px 2px #cc00ff,-3px -3px 5px 2px #00Cfff;
 }
 .event__card--img1{
-    background-image: url(/asset/image/Event1.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    background-image: url(./image/Event1.png);
 }
-.evnet__card--img2{
-    background-image: url(/asset/image/Event1.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.event__card--img2{
+    background-image: url(./image/Event2.png);
+
 }
 .event__card--img3{
-    background-image: url(/asset/image/Event3.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    background-image: url(./image/Event3.png);
+
 }
-.games__card--img4{
-    background-image: url(/asset/image/Event1.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+.event__card--img4{
+    background-image: url(./image/Event4.png);
+
 }
