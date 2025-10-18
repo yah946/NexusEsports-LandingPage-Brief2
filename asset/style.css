@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap'); 
+
+* {
+    font-family:'Space Grotesk', sans-serif; 
+    color: aliceblue;
+}
+body{
+  background-color: #09161C;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Header */
+.header__navigation{
+  /* position: sticky; ********************************************** */
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 100px;
+}
+.header__nav-bar{
+  display: flex;
+  gap: 32px;
+}
+.header__logo{
+  font-size: 32px;
+}
+.header__link{
+  text-decoration: none;
+}
+.header__link--self{
+  padding-left: 90px;
+  align-self: center;
+}
+/* hero */
+/* CTA */
+
+/* footer */
+.footer__list--flex{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.footer__text{
+  width: 400px;
+}
+.footer__list-title, .footer__contact-info--gray{
+  color: #c1c1c1;
+}
+.footer__contact{
+  display: flex;
+  justify-content: left;
+  gap: 110px;
+}
+.footer__link{
+  text-decoration: none;  
+}
+.footer__contact-info--self{
+  align-self: center;
+}
+ul{
+  list-style-type: none;
+}
+.footer__list-title{
+  align-self: center;
+}
+
+.footer__last-section{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap;
+  gap: 750px;
+}
+.pages--color, .footer__last-section--color{
+  color: #c1c1c1;
+  text-decoration: none;
+}
+/* Games */
+.games{
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+
+}
+.games__card{
+  border-radius: 16px;
+  width: 300px;
+  height: 401px;
+  box-shadow: 3px 3px 5px 2px #cc00ff,-3px -3px 5px 2px #00Cfff;
+}
+.games__card--img1{
+    background-image: url(/asset/image/Games1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.games__card-title, .games__card-info{
+  margin:0 0 4px 20px;
+  text-decoration: none;
+}
+.games__card--img2{
+    background-image: url(/asset/image/Games2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.games__card--img3{
+    background-image: url(/asset/image/Games3.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.games__card--img4{
+    background-image: url(/asset/image/Games4.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.games__card--color{
+  color:#00Cfff;
+}
+/* Blog */
+.blog{
+  display: flex;
+
+}
+.blog__content-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8px;
+}
+.blog__card-title, .blog__button--textDecoration{
+  text-decoration: none;
+}
+.blog__card-title:hover{
+  color: #00Cfff;
+}
+.blog__button{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 0 8px;
+}
+.blog__button--color{
+  color: #00Cfff;
+  padding: 0 8px ;
+}
+.blog__button--color:hover{
+  color: azure;
+}
+.blog__card-users{
+  display: flex;
+  justify-content: space-around;
+}
+.teams__button{
+  color: #cc00ff;
+  box-shadow: 3px 3px 10px 5px #cc00ff;
+  padding: 3px 20px;
+  text-decoration: none;
+}
